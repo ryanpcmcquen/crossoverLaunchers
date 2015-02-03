@@ -1,0 +1,4 @@
+#!/bin/sh
+## modify to fit whatever crazy changes happen  ;-)
+find . -type f -exec sed -i 's/SteamApps/steamapps/g' {} \;
+
